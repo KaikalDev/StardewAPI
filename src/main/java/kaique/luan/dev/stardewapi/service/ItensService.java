@@ -4,19 +4,13 @@ import kaique.luan.dev.stardewapi.domain.models.Item;
 import kaique.luan.dev.stardewapi.domain.repository.ItensRepository;
 import kaique.luan.dev.stardewapi.service.intefaces.IItensService;
 import org.springframework.beans.BeanUtils;
-<<<<<<< HEAD
 import org.springframework.stereotype.Service;
-=======
->>>>>>> f9f3d116153838ebeae76e966abee2246afb30fd
 
 import java.util.List;
 import java.util.NoSuchElementException;
 import java.util.Optional;
 
-<<<<<<< HEAD
 @Service
-=======
->>>>>>> f9f3d116153838ebeae76e966abee2246afb30fd
 public class ItensService implements IItensService {
 
     private final ItensRepository itensRepository;
