@@ -12,7 +12,7 @@ public class Culinary {
     private Long id;
 
     @OneToOne
-    @JoinColumn(nullable = false)
+    @JoinColumn(nullable = false, unique = true)
     private Item item;
 
     @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true)
