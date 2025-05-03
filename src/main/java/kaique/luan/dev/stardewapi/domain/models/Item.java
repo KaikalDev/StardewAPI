@@ -21,6 +21,17 @@ public class Item {
     @Column(nullable = false)
     private String icon;
 
+    @Column(nullable = false)
+    private String Type;
+
+    public String getType() {
+        return Type;
+    }
+
+    public void setType(String type) {
+        Type = type;
+    }
+
     public String getDescription() {
         return description;
     }
