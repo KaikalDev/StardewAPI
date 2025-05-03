@@ -18,7 +18,20 @@ public class Item {
 
     private String icon;
 
+<<<<<<< HEAD
     private String type;
+=======
+    @Column(nullable = false)
+    private String Type;
+
+    public String getType() {
+        return Type;
+    }
+
+    public void setType(String type) {
+        Type = type;
+    }
+>>>>>>> f9f3d116153838ebeae76e966abee2246afb30fd
 
     public String getDescription() {
         return description;
