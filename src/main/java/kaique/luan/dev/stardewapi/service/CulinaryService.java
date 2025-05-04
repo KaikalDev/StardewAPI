@@ -92,7 +92,6 @@ public class CulinaryService implements ICulinaryService {
         c.setEnergy(dto.getEnergy());
         c.setHealth(dto.getHealth());
         c.setFont(dto.getFont());
-        c.setPrice(dto.getPrice());
         return c;
     }
 }

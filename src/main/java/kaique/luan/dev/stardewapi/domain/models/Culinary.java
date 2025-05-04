@@ -32,9 +32,6 @@ public class Culinary {
     @Column(nullable = false)
     private String font;
 
-    @Column(nullable = false)
-    private int price;
-
     public List<Bonus> getBonuses() {
         return bonuses;
     }
@@ -89,13 +86,5 @@ public class Culinary {
 
     public void setItem(Item item) {
         this.item = item;
-    }
-
-    public int getPrice() {
-        return price;
-    }
-
-    public void setPrice(int price) {
-        this.price = price;
     }
 }
