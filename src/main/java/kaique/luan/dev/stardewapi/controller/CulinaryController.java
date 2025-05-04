@@ -11,7 +11,7 @@ import java.net.URI;
 import java.util.List;
 
 @RestController
-@RequestMapping("/Culinary")
+@RequestMapping("/culinary")
 public class CulinaryController {
 
     private final ICulinaryService culinaryService;

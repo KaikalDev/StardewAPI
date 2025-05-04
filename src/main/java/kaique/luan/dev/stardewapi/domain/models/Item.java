@@ -20,6 +20,16 @@ public class Item {
 
     private String type;
 
+    private Long price;
+
+    public Long getPrice() {
+        return price;
+    }
+
+    public void setPrice(Long price) {
+        this.price = price;
+    }
+
     public String getDescription() {
         return description;
     }
