@@ -54,7 +54,7 @@ public class CulinaryService implements ICulinaryService {
     }
 
     @Override
-    public Culinary getCulinaryByItemId(Long itemId) {
+    public Culinary getCulinaryByItemId(String itemId) {
         return culinaryRepository.findCulinaryByItem_ItemId(itemId)
                 .orElseThrow(() -> new NoSuchElementException("Culinary with itemId " + itemId + " not found."));
     }

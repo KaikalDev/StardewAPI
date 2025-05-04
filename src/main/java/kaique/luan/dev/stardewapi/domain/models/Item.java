@@ -10,7 +10,7 @@ public class Item {
     private Long id;
 
     @Column(unique = true)
-    private Long itemId;
+    private String itemId;
 
     private String name;
 
@@ -54,11 +54,11 @@ public class Item {
         this.id = id;
     }
 
-    public Long getItemId() {
+    public String getItemId() {
         return itemId;
     }
 
-    public void setItemId(Long itemId) {
+    public void setItemId(String itemId) {
         this.itemId = itemId;
     }
 

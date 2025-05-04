@@ -48,7 +48,7 @@ public class ItensService implements IItensService {
     }
 
     @Override
-    public Item getItemByItemId(Long itemId) {
+    public Item getItemByItemId(String itemId) {
         return itensRepository.findByItemId(itemId)
                 .orElseThrow(() -> new NoSuchElementException("Item with itemId " + itemId + " not found."));
     }

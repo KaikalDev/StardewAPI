@@ -12,7 +12,7 @@ public interface IItensService {
 
     Item updateItem(Item item);
 
-    Item getItemByItemId(Long itemId);
+    Item getItemByItemId(String itemId);
 
     List<Item> getAllItems();
 

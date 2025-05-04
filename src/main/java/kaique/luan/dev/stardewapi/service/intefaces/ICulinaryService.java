@@ -14,7 +14,7 @@ public interface ICulinaryService {
 
     Culinary updateCulinary(Culinary culinaryToUpdate);
 
-    Culinary getCulinaryByItemId(Long itemId);
+    Culinary getCulinaryByItemId(String itemId);
 
     Culinary formDTOToCulinary(CulinaryDTO dto);
 

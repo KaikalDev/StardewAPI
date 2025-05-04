@@ -31,7 +31,7 @@ public class CulinaryController {
     }
 
     @GetMapping("/{itemId}")
-    public ResponseEntity<Culinary> findByItemId(@PathVariable Long itemId) {
+    public ResponseEntity<Culinary> findByItemId(@PathVariable String itemId) {
         var culinary = culinaryService.getCulinaryByItemId(itemId);
         return ResponseEntity.ok(culinary);
     }
